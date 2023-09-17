@@ -1,4 +1,6 @@
-﻿namespace ado.net_Practice
+﻿using System.Data;
+
+namespace ado.net_Practice
 {
     internal class Program
     {

@@ -1,0 +1,13 @@
+<?xml version="1.0" standalone="yes"?>
+<DocumentElement>
+  <Employee>
+    <EmpId>101</EmpId>
+    <EmpName>Anadi</EmpName>
+    <DeptId>10</DeptId>
+  </Employee>
+  <Employee>
+    <EmpId>102</EmpId>
+    <EmpName>Mohit</EmpName>
+    <DeptId>10</DeptId>
+  </Employee>
+</DocumentElement>
