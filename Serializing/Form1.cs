@@ -1,4 +1,7 @@
+using System;
 using System.Data;
+using Newtonsoft.Json;
+
 namespace Serializing
 {
     public partial class SerializingDataSet : Form
@@ -67,6 +70,15 @@ namespace Serializing
         {
             DataTable emp = GetEmployeeTable();
             emp.WriteXml(@"C:\Users\dbdf0\source\repos\ado.net_SE\Serializing\data.xml");
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            DataTable emp = GetEmployeeTable();
+            string json = JsonConvert.SerializeObject(emp);
+            StreamWriter writer = File.CreateText(@"C:\Users\dbdf0\source\repos\ado.net_SE\Serializing\data.json");
+            writer.WriteLine(json);
+            writer.Close();
         }
 
     }
