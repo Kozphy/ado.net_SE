@@ -5,7 +5,11 @@ VisualStudioVersion = 17.6.33829.357
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ado.net_Practice", "ado.net_Practice.csproj", "{8CC895A2-1333-4DB1-B1FD-912C7F3E7686}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Serializing", "..\Serializing\Serializing.csproj", "{11876238-3E20-4AA7-8ACA-392EFB8A8E89}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Serializing", "..\Serializing\Serializing.csproj", "{11876238-3E20-4AA7-8ACA-392EFB8A8E89}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Establishing_Connection", "..\Establishing_Connection\Establishing_Connection.csproj", "{7DE6F26D-9EB8-419D-A681-990F2D0982A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exec_cmd", "..\Exec_cmd\Exec_cmd.csproj", "{8AF3E439-2646-499E-ADB5-423A63B83EDC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{11876238-3E20-4AA7-8ACA-392EFB8A8E89}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{11876238-3E20-4AA7-8ACA-392EFB8A8E89}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{11876238-3E20-4AA7-8ACA-392EFB8A8E89}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7DE6F26D-9EB8-419D-A681-990F2D0982A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DE6F26D-9EB8-419D-A681-990F2D0982A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DE6F26D-9EB8-419D-A681-990F2D0982A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DE6F26D-9EB8-419D-A681-990F2D0982A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8AF3E439-2646-499E-ADB5-423A63B83EDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8AF3E439-2646-499E-ADB5-423A63B83EDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8AF3E439-2646-499E-ADB5-423A63B83EDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8AF3E439-2646-499E-ADB5-423A63B83EDC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

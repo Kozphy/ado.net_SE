@@ -20,20 +20,6 @@ namespace Serializing
         {
         }
 
-        DataSet GenerateDataSet()
-        {
-            DataTable emp = GetEmployeeTable();
-
-            ds = new DataSet("MyDS");
-            ds.Tables.Add(emp); // 0, we can use ds.Table[0] to get Department Table, and ds.Table[1].Columns[0] to get column
-
-            DataColumn col_fk = ds.Tables["Employee"].Columns["DeptId"];
-            //DataColumn col_pk = ds.Tables["Department"].Columns["DeptId"];
-
-            return ds;
-        }
-
-
         DataTable GetEmployeeTable()
         {
             dt = new DataTable("Employee");
@@ -80,6 +66,5 @@ namespace Serializing
             writer.WriteLine(json);
             writer.Close();
         }
-
     }
 }
